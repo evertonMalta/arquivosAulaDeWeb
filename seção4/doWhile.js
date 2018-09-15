@@ -3,10 +3,10 @@ function getIntRandom(min, max){
     return Math.floor(valor)
 }
 
-let opcao = 0
+let opcao = -1
 
-while(opcao != -1){
+do{
     opcao = getIntRandom(-1,10)
     console.log(`opcao sorteada ${opcao}`);
     
-}
+}while(opcao != -1)
